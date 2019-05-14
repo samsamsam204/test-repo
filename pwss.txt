@@ -1,0 +1,23 @@
+iristhanhcong/iT&??.T&{t;-bdu
+
+
+// for git first code
+1.Create a new folder and run in it:
+	git init
+
+2.Then try: 
+	git remote add origin <your-repository-url>.
+
+3.Copy all the files in your project folder to the new folder, except the .git folder (it may be invisible). Then you can push your code by doing:
+	git add --all; or git add -A; 
+	git commit -m "YOUR MESSAGE";
+	git push -u origin master.
+4. if error git refusing to merge unrelated histories on rebase , fixing: 
+	git pull origin master--allow-unrelated-histories
+// for remove .git
+ 	cd ~/Documents/gitHub/
+# remove all refer of git
+	rm -rf .git
+# example, and again, be careful, it will erase your entire folder
+ 	rm -rf repositoryA
+	git clone git://github.com/myUser/repositoryA.git

@@ -14,6 +14,9 @@ iristhanhcong/iT&??.T&{t;-bdu
 	git push -u origin master.
 4. if error git refusing to merge unrelated histories on rebase , fixing: 
 	git pull origin master--allow-unrelated-histories
+5. set a local branches to track their pairs in the origin server.
+	git checkout mybranch
+	git branch --set-upstream-to=origin/mybranch
 // for remove .git
  	cd ~/Documents/gitHub/
 # remove all refer of git

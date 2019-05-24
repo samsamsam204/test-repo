@@ -15,8 +15,8 @@ iristhanhcong/iT&??.T&{t;-bdu
 4. if error git refusing to merge unrelated histories on rebase , fixing: 
 	git pull origin master--allow-unrelated-histories
 5. set a local branches to track their pairs in the origin server.
-	git checkout mybranch
-	git branch --set-upstream-to=origin/mybranch
+	git checkout master
+	git branch --set-upstream-to=origin/master
 // for remove .git
  	cd ~/Documents/gitHub/
 # remove all refer of git

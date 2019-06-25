@@ -13,7 +13,7 @@ iristhanhcong/iT&??.T&{t;-bdu
 	git commit -m "YOUR MESSAGE";
 	git push -u origin master.
 4. if error git refusing to merge unrelated histories on rebase , fixing: 
-	git pull origin master--allow-unrelated-histories
+	git pull origin master --allow-unrelated-histories
 5. set a local branches to track their pairs in the origin server.
 	git checkout master
 	git branch --set-upstream-to=origin/master

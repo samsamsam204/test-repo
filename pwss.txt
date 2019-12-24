@@ -24,3 +24,6 @@ iristhanhcong/iT&??.T&{t;-bdu
 # example, and again, be careful, it will erase your entire folder
  	rm -rf repositoryA
 	git clone git://github.com/myUser/repositoryA.git
+
+# Delete a remote branch  - Git version 1.7.0 or newer 
+	$ git push origin --delete <branch>

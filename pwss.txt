@@ -32,6 +32,7 @@ iristhanhcong/iT&??.T&{t;-bdu
 
 # Make the remote empty branch
 	git checkout —orphan new_branch_name
+	git rm --cached -r .
 	# Make sure you are in the right directory before executing the following command:
 	ls -la |awk '{print $9}' |grep -v git |xargs -I _ rm -rf ./_
 	git rm -rf .

@@ -6,12 +6,12 @@ iristhanhcong/iT&??.T&{t;-bdu
 	git init
 
 2.Then try: 
-	git remote add origin <your-repository-url>.
+	git remote add origin <your-repository-url>
 
 3.Copy all the files in your project folder to the new folder, except the .git folder (it may be invisible). Then you can push your code by doing:
-	git add --all; or git add -A; 
-	git commit -m "YOUR MESSAGE";
-	git push -u origin master.
+	git add --all(or git add -A)
+	git commit -m "YOUR MESSAGE"
+	git push -u origin master
 4. if error git refusing to merge unrelated histories on rebase , fixing: 
 	git pull origin master --allow-unrelated-histories
 5. set a local branches to track their pairs in the origin server.

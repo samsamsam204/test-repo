@@ -28,7 +28,7 @@ iristhanhcong/iT&??.T&{t;-bdu
 # Delete a remote branch  - Git version 1.7.0 or newer 
 	$ git checkout master
 	$ git branch -d Test_Branch # delete local branch
-	$ git push origin --delete <branch>
+	$ git push origin --delete <branch> # must change default branch first
 
 # Make the remote empty branch
 	git checkout —orphan new_branch_name
